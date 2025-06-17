@@ -37,7 +37,7 @@
         mkpkp: mkpkp {
             compatible = "zmk,behavior-hold-tap";
             label = "Mouse Key Press/Key Press";
-            bindings = <&mkp>, <&kp>;
+            bindings = <&kp>, <&mkp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <280>;
