@@ -133,10 +133,10 @@
 
         sym_en {
             bindings = <
-  &kp TILDE       &kp LT          &kp EQUAL         &kp GT           &kp GRAVE                    &kp CARET  &kp LBKT         &kp UNDER        &kp RBKT        &kp DLLR
-  &hml LGUI BSLH  &hml LALT LPAR  &hml LSHFT MINUS  &hml LCTRL RPAR  &kp PLUS                     &kp PRCNT  &hmr RCTRL LBRC  &hmr RSHFT SEMI  &hmr LALT RBRC  &hmr RGUI EXCL
-  &kp HASH        &kp STAR        &kp COLON         &kp FSLH         &kp AMPS                     &kp AT     &kp PIPE         &kp COMMA        &kp DOT         &kp QMARK
-                                                    &trans           &mo 5      &trans    &trans  &none      &trans
+  &kp TILDE               &kp LT          &kp EQUAL         &kp GT              &kp GRAVE                  &kp CARET  &kp LBKT             &kp UNDER        &kp RBKT        &kp DLLR
+  &hml LEFT_CONTROL BSLH  &hml LALT LPAR  &hml LSHFT MINUS  &hml LEFT_GUI RPAR  &kp PLUS                   &kp PRCNT  &hmr RIGHT_GUI LBRC  &hmr RSHFT SEMI  &hmr LALT RBRC  &hmr RIGHT_CONTROL EXCL
+  &kp HASH                &kp STAR        &kp COLON         &kp FSLH            &kp AMPS                   &kp AT     &kp PIPE             &kp COMMA        &kp DOT         &kp QMARK
+                                                            &none               &none      &none    &none  &none      &none
             >;
         };
 
