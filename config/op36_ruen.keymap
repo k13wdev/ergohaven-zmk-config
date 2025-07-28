@@ -52,11 +52,6 @@
             bindings = <&kp RU_CYRILLIC_HARD_SIGN>;
             key-positions = <7 8>;
         };
-
-        ru_en {
-            bindings = <&kp LG(SPACE)>;
-            key-positions = <2 3>;
-        };
     };
 
     keymap {
@@ -126,12 +121,5 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        adj {
-            if-layers = <3 2>;
-            then-layer = <6>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
