@@ -52,8 +52,8 @@
             key-positions = <7 8>;
         };
 
-        dot {
-            bindings = <&kp KP_DOT>;
+        period {
+            bindings = <&kp PERIOD>;
             key-positions = <18 19>;
         };
     };
