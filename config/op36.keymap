@@ -51,6 +51,11 @@
             bindings = <&kp RBKT>;
             key-positions = <7 8>;
         };
+
+        dot {
+            bindings = <&kp KP_DOT>;
+            key-positions = <18 19>;
+        };
     };
 
     keymap {
