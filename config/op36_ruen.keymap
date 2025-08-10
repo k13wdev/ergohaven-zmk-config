@@ -66,6 +66,11 @@
             key-positions = <2 3>;
             layers = <0>;
         };
+
+        period {
+            bindings = <&en PERIOD>;
+            key-positions = <17 18>;
+        };
     };
 
     macros {
