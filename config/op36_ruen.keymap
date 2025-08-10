@@ -67,9 +67,16 @@
             layers = <0>;
         };
 
-        period {
+        ru_period {
             bindings = <&en PERIOD>;
             key-positions = <17 18>;
+            layers = <1>;
+        };
+
+        en_period {
+            bindings = <&kp PERIOD>;
+            key-positions = <17 18>;
+            layers = <0>;
         };
     };
 
