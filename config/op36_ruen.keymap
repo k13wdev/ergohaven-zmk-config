@@ -141,169 +141,169 @@
 
         en {
             bindings = <&kp>;
-            key-positions = <>;
+            key-positions = <11 12 3>;
             layers = <0>;
         };
 
         ru {
             bindings = <&en>;
-            key-positions = <>;
+            key-positions = <11 12 3>;
             layers = <1>;
         };
 
         en {
             bindings = <&kp>;
-            key-positions = <>;
+            key-positions = <1 2 13>;
             layers = <0>;
         };
 
         ru {
             bindings = <&en>;
-            key-positions = <>;
+            key-positions = <1 2 13>;
             layers = <1>;
         };
 
         en {
             bindings = <&kp>;
-            key-positions = <>;
+            key-positions = <12 23>;
             layers = <0>;
         };
 
         ru {
             bindings = <&en>;
-            key-positions = <>;
+            key-positions = <12 23>;
             layers = <1>;
         };
 
         en {
             bindings = <&kp>;
-            key-positions = <>;
+            key-positions = <2 11>;
             layers = <0>;
         };
 
         ru {
             bindings = <&en>;
-            key-positions = <>;
+            key-positions = <2 11>;
             layers = <1>;
         };
 
         en {
             bindings = <&kp>;
-            key-positions = <>;
+            key-positions = <2 13>;
             layers = <0>;
         };
 
         ru {
             bindings = <&en>;
-            key-positions = <>;
+            key-positions = <2 13>;
             layers = <1>;
         };
 
         en {
             bindings = <&kp>;
-            key-positions = <>;
+            key-positions = <11 2 13>;
             layers = <0>;
         };
 
         ru {
             bindings = <&en>;
-            key-positions = <>;
+            key-positions = <11 2 13>;
             layers = <1>;
         };
 
         en {
             bindings = <&kp>;
-            key-positions = <>;
+            key-positions = <16 9>;
             layers = <0>;
         };
 
         ru {
             bindings = <&en>;
-            key-positions = <>;
+            key-positions = <16 9>;
             layers = <1>;
         };
 
         en {
             bindings = <&kp>;
-            key-positions = <>;
+            key-positions = <3 14>;
             layers = <0>;
         };
 
         ru {
             bindings = <&en>;
-            key-positions = <>;
+            key-positions = <3 14>;
             layers = <1>;
         };
 
         en {
             bindings = <&kp>;
-            key-positions = <>;
+            key-positions = <31 3>;
             layers = <0>;
         };
 
         ru {
             bindings = <&en>;
-            key-positions = <>;
+            key-positions = <31 3>;
             layers = <1>;
         };
 
         en {
             bindings = <&kp>;
-            key-positions = <>;
+            key-positions = <2 31>;
             layers = <0>;
         };
 
         ru {
             bindings = <&en>;
-            key-positions = <>;
+            key-positions = <2 31>;
             layers = <1>;
         };
 
         en {
             bindings = <&kp>;
-            key-positions = <>;
+            key-positions = <13 31>;
             layers = <0>;
         };
 
         ru {
             bindings = <&en>;
-            key-positions = <>;
+            key-positions = <13 31>;
             layers = <1>;
         };
 
         en {
             bindings = <&kp>;
-            key-positions = <>;
+            key-positions = <12 31>;
             layers = <0>;
         };
 
         ru {
             bindings = <&en>;
-            key-positions = <>;
+            key-positions = <12 31>;
             layers = <1>;
         };
 
         en {
             bindings = <&kp>;
-            key-positions = <>;
+            key-positions = <31 23>;
             layers = <0>;
         };
 
         ru {
             bindings = <&en>;
-            key-positions = <>;
+            key-positions = <23 31>;
             layers = <1>;
         };
 
         en {
             bindings = <&kp>;
-            key-positions = <>;
+            key-positions = <22 31>;
             layers = <0>;
         };
 
         ru {
             bindings = <&en>;
-            key-positions = <>;
+            key-positions = <22 31>;
             layers = <1>;
         };
 
