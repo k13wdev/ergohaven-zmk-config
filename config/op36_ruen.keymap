@@ -69,73 +69,73 @@
 
         perioden {
             bindings = <&kp PERIOD>;
-            key-positions = <17 18>;
+            key-positions = <18 19>;
             layers = <0>;
         };
 
         periodru {
             bindings = <&en PERIOD>;
-            key-positions = <18 17>;
+            key-positions = <18 19>;
             layers = <1>;
         };
 
         commaen {
-            bindings = <&kp>;
-            key-positions = >;
+            bindings = <&kp COMMA>;
+            key-positions = <18 17>;
             layers = <0>;
         };
 
         commaru {
-            bindings = <&en>;
-            key-positions = <>;
+            bindings = <&en COMMA>;
+            key-positions = <18 17>;
             layers = <1>;
         };
 
-        en {
-            bindings = <&kp>;
-            key-positions = <>;
+        sqen {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <7 18>;
             layers = <0>;
         };
 
-        ru {
-            bindings = <&en>;
-            key-positions = <>;
+        sqru {
+            bindings = <&en SINGLE_QUOTE>;
+            key-positions = <7 18>;
             layers = <1>;
         };
 
-        en {
-            bindings = <&kp>;
-            key-positions = <>;
+        dqen {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <18 6>;
             layers = <0>;
         };
 
-        ru {
-            bindings = <&en>;
-            key-positions = <>;
+        dqru {
+            bindings = <&en DOUBLE_QUOTES>;
+            key-positions = <18 6>;
             layers = <1>;
         };
 
-        en {
-            bindings = <&kp>;
-            key-positions = <>;
+        exclamationen {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <6 7 18>;
             layers = <0>;
         };
 
-        ru {
-            bindings = <&en>;
-            key-positions = <>;
+        exclamationru {
+            bindings = <&en EXCLAMATION>;
+            key-positions = <6 7 18>;
             layers = <1>;
         };
 
-        en {
-            bindings = <&kp>;
-            key-positions = <>;
+        questionen {
+            bindings = <&kp QUESTION>;
+            key-positions = <16 17 8>;
             layers = <0>;
         };
 
-        ru {
-            bindings = <&en>;
-            key-positions = <>;
+        questionru {
+            bindings = <&en QUESTION>;
+            key-positions = <16 17 8>;
             layers = <1>;
         };
 
