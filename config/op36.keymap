@@ -6,6 +6,17 @@
 / {
     combos { compatible = "zmk,combos"; };
 
+    behaviors {
+        sm: sm {
+            compatible = "zmk,behavior-sticky-key";
+            label = "SM";
+            bindings = <&mkp>;
+            #binding-cells = <1>;
+            release-after-ms = <0>;
+            ignore-modifiers;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -20,10 +31,10 @@
 
         layer_2 {
             bindings = <
-  &trans    &trans  &trans  &trans  &trans                     &none  &none  &none  &none  &none
-  &mkp MB2  &trans  &trans  &trans  &trans                     &none  &none  &none  &none  &none
-  &trans    &trans  &trans  &trans  &trans                     &none  &none  &none  &none  &none
-                            &tog 1  &mkp MB1  &trans    &none  &none  &none
+  &trans   &trans  &trans  &trans  &trans                     &none  &none  &none  &none  &none
+  &sm MB2  &trans  &trans  &trans  &trans                     &none  &none  &none  &none  &none
+  &trans   &trans  &trans  &trans  &trans                     &none  &none  &none  &none  &none
+                           &tog 1  &mkp MB1  &trans    &none  &none  &none
             >;
         };
     };
