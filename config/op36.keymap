@@ -29,10 +29,10 @@
 
         layer_3 {
             bindings = <
-  &kp N4  &kp N1  &kp N2  &kp N3  &kp Y                    &none  &none  &none  &none  &none
-  &none   &none   &none   &none   &kp TAB                  &none  &none  &none  &none  &none
-  &none   &none   &none   &none   &none                    &none  &none  &none  &none  &none
-                          &none   &none    &none    &none  &none  &none
+  &kp N4  &kp N1  &kp N2  &kp N3   &kp Y                      &none  &none  &none  &none  &none
+  &none   &none   &none   &kp TAB  &kp ENTER                  &none  &none  &none  &none  &none
+  &none   &none   &kp C   &none    &none                      &none  &none  &none  &none  &none
+                          &none    &none      &none    &none  &none  &none
             >;
         };
     };
