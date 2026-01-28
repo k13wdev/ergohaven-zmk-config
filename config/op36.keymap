@@ -12,19 +12,19 @@
 
         layer_1 {
             bindings = <
-  &kp ESC             &kp Q   &kp W   &kp E    &kp R                          &none  &none  &none  &none  &none
-  &kp LSHFT           &kp A   &kp S   &kp D    &kp F                          &none  &none  &none  &none  &none
-  &mt RCTRL NUMBER_4  &kp N1  &kp N2  &kp N3   &lt 1 M                        &none  &none  &none  &none  &none
-                                      &kp TAB  &kp ENTER  &kp SPACE    &none  &none  &none
+  &kp Q   &kp W   &kp E  &kp R    &kp T                          &none  &none  &none  &none  &none
+  &kp F2  &kp S   &kp D  &kp F    &kp E                          &none  &none  &none  &none  &none
+  &kp F3  &kp F1  &kp A  &kp M    &kp B                          &none  &none  &none  &none  &none
+                         &kp TAB  &kp ENTER  &kp SPACE    &none  &none  &none
             >;
         };
 
         layer_2 {
             bindings = <
-  &none  &none  &none  &none          &kp Y                  &none  &none  &none  &none  &none
-  &none  &none  &none  &none          &kp G                  &none  &none  &none  &none  &none
-  &none  &none  &kp C  &none          &none                  &none  &none  &none  &none  &none
-                       &kp BACKSPACE  &none  &none    &none  &none  &none
+  &none  &kp N1  &kp N2  &kp N3  &none                  &none  &none  &none  &none  &none
+  &none  &kp Z   &kp X   &kp C   &none                  &none  &none  &none  &none  &none
+  &none  &none   &none   &none   &none                  &none  &none  &none  &none  &none
+                         &none   &none  &none    &none  &none  &none
             >;
         };
     };
