@@ -12,19 +12,19 @@
 
         layer_1 {
             bindings = <
-  &kp Q  &kp W  &kp E  &kp R    &kp T                      &none  &none  &none  &none  &none
-  &kp A  &kp S  &kp D  &kp F    &kp G                      &none  &none  &none  &none  &none
-  &kp Z  &kp X  &kp C  &kp V    &kp B                      &none  &none  &none  &none  &none
-                       &kp TAB  &mo 1  &kp SPACE    &none  &none  &none
+  &kp Q  &kp W  &kp E  &kp R  &kp T                        &none  &none  &none  &none  &none
+  &kp A  &kp S  &kp D  &kp F  &kp G                        &none  &none  &none  &none  &none
+  &kp Z  &kp X  &kp C  &kp V  &kp B                        &none  &none  &none  &none  &none
+                       &mo 1  &kp SPACE  &kp TAB    &none  &none  &none
             >;
         };
 
         layer_2 {
             bindings = <
-  &none  &kp N1  &kp N2  &kp N3  &none                  &none  &none  &none  &none  &none
-  &none  &kp Z   &kp X   &kp C   &none                  &none  &none  &none  &none  &none
-  &none  &none   &none   &none   &none                  &none  &none  &none  &none  &none
-                         &none   &none  &none    &none  &none  &none
+  &kp F4  &kp F1  &kp F2  &kp F3  &kp F5                  &none  &none  &none  &none  &none
+  &kp N4  &kp N1  &kp N2  &kp N3  &kp N5                  &none  &none  &none  &none  &none
+  &none   &none   &none   &none   &none                   &none  &none  &none  &none  &none
+                          &none   &none   &none    &none  &none  &none
             >;
         };
     };
