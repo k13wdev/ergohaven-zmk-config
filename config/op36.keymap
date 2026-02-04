@@ -8,38 +8,56 @@
     combos { compatible = "zmk,combos"; };
 
     behaviors {
-        hml: home_row_mod_left {
+        ltd: ltd {
             compatible = "zmk,behavior-hold-tap";
-            bindings = <&kp>, <&kp>;
+            label = "LTD";
+            bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
-            hold-trigger-key-positions = <5 6 7 8 9 16 17 18 19 26 27 28 29 35 15 25 33 34>;
-            tapping-term-ms = <280>;
-            quick-tap-ms = <175>;
-            require-prior-idle-ms = <150>;
-            flavor = "balanced";
-            hold-trigger-on-release;
+            tapping-term-ms = <180>;
+            quick-tap-ms = <150>;
+            require-prior-idle-ms = <100>;
+            hold-trigger-key-positions = <30 31>;
+            flavor = "tap-preferred";
         };
     };
 
     keymap {
         compatible = "zmk,keymap";
 
+        layer_0 {
+            bindings = <
+  &kp Q  &kp W  &kp E  &kp R            &kp T                          &trans  &trans  &trans  &trans  &trans
+  &kp A  &kp S  &kp D  &kp F            &kp G                          &trans  &trans  &trans  &trans  &trans
+  &kp Z  &kp X  &kp C  &kp V            &kp B                          &trans  &trans  &trans  &trans  &trans
+                       &ltd 1 LEFT_ALT  &ltd 2 SPACE  &mo 3    &trans  &trans  &trans
+            >;
+        };
+
         layer_1 {
             bindings = <
-  &kp TAB    &kp Q  &kp W  &kp E      &kp R                      &none  &none  &none  &none  &none
-  &kp LSHFT  &kp A  &kp S  &kp D      &kp F                      &none  &none  &none  &none  &none
-  &kp LCTRL  &none  &none  &none      &kp M                      &none  &none  &none  &none  &none
-                           &kp ENTER  &sl 1  &kp SPACE    &none  &none  &none
+  &kp Q  &kp W  &kp E  &kp R   &kp D                    &none  &none  &none  &none  &none
+  &kp F  &kp A  &kp S  &none   &none                    &none  &none  &none  &none  &none
+  &none  &none  &none  &none   &none                    &none  &none  &none  &none  &none
+                       &trans  &trans  &trans    &none  &none  &none
             >;
         };
 
         layer_2 {
             bindings = <
-  &kp ESC  &none   &none   &none     &kp Y                  &none  &none  &none  &none  &none
-  &kp N4   &kp N1  &kp N2  &kp N3    &kp F                  &none  &none  &none  &none  &none
-  &none    &none   &none   &kp BSPC  &kp G                  &none  &none  &none  &none  &none
-                           &none     &none  &none    &none  &none  &none
+  &kp N1  &kp N2  &kp N3  &none   &none                    &none  &none  &none  &none  &none
+  &kp N4  &kp N5  &kp N6  &none   &none                    &none  &none  &none  &none  &none
+  &kp N   &kp B   &kp F5  &none   &none                    &none  &none  &none  &none  &none
+                          &trans  &trans  &trans    &none  &none  &none
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+  &kp F1   &kp F2   &kp F3  &kp F4   &kp C_PAUSE                   &none  &none  &none  &none  &none
+  &kp F8   &kp TAB  &kp F9  &kp F10  &kp F11                       &none  &none  &none  &none  &none
+  &kp F12  &kp F7   &none   &none    &none                         &none  &none  &none  &none  &none
+                            &trans   &trans       &trans    &none  &none  &none
             >;
         };
     };
