@@ -27,10 +27,10 @@
 
         layer_0 {
             bindings = <
-  &kp ESC    &kp Q   &kp W  &kp E      &kp R                       &trans  &trans  &trans  &trans  &trans
-  &kp LSHFT  &kp A   &kp S  &kp D      &kp F                       &trans  &trans  &trans  &trans  &trans
-  &kp RCTRL  &trans  &kp C  &kp TAB    &kp M                       &trans  &trans  &trans  &trans  &trans
-                            &kp ENTER  &mo 1  &kp SPACE    &trans  &trans  &trans
+  &kp ESC    &kp Q    &kp W  &kp E      &kp R                       &trans  &trans  &trans  &trans  &trans
+  &kp LSHFT  &kp A    &kp S  &kp D      &kp F                       &trans  &trans  &trans  &trans  &trans
+  &kp RCTRL  &kp TAB  &kp C  &kp Y      &kp M                       &trans  &trans  &trans  &trans  &trans
+                             &kp ENTER  &mo 1  &kp SPACE    &trans  &trans  &trans
             >;
         };
 
